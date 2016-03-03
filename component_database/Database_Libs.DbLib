@@ -1,34 +1,31 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\altium\Component_database\index.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\altium\rep\component_database\index.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=D:\altium\Component_database\index.xls
+LibraryDatabasePath=D:\altium\rep\component_database\index.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=PCB;SCH
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=IC$
+LastFocusedTable=Beads$
 [Table1]
 SchemaName=
 TableName=Beads$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=102|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=104|TKE0=40|Tolerance0=72|Power/Voltage0=99|Manufacturer0=93|ManufacturerPartNumber0=154|Корпус0=60|TitAD0=50
 [Table2]
 SchemaName=
 TableName=Condensator$
@@ -53,9 +50,6 @@ TableName=IC$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=97|Library Ref0=78|Footprint Ref0=95|Library Path0=83|Footprint Path0=98|Value0=52|TKE0=40|Tolerance0=72|Power/Voltage0=99|Manufacturer0=93|ManufacturerPartNumber0=154|Корпус0=60|TitAD0=100
 [Table6]
 SchemaName=
 TableName=LED$
