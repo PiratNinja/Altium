@@ -131,18 +131,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for vovaJackal\Design Rule Check - PCB1.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for vovaJackal\Sheet.BOM
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for vovaJackal\Sheet.CSV
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0

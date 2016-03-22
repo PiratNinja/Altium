@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Job1.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=New PDF
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -55,7 +55,7 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
-OutputEnabled1_OutputMedium5=1
+OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
@@ -69,7 +69,7 @@ OutputName2=PCB 3D top
 OutputCategory2=Documentation
 OutputDocumentPath2=PCB1.PcbDoc
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -88,20 +88,20 @@ OutputName3=Images
 OutputCategory3=Documentation
 OutputDocumentPath3=PCB1.PcbDoc
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
-OutputEnabled3_OutputMedium5=0
-OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium5=1
+OutputEnabled3_OutputMedium6=1
 OutputEnabled3_OutputMedium7=1
 OutputEnabled3_OutputMedium8=0
 OutputEnabled3_OutputMedium9=0
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.85|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=60600000|PrintAreaLowerLeftCornerY=6750000|PrintAreaUpperRightCornerX=103150000|PrintAreaUpperRightCornerY=61450000|Record=PcbPrintView
+Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=45200000|PrintAreaLowerLeftCornerY=4800000|PrintAreaUpperRightCornerX=87250000|PrintAreaUpperRightCornerY=59350000|Record=PcbPrintView
 Configuration3_Name2=OutputConfigurationParameter2
 Configuration3_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name3=OutputConfigurationParameter3
@@ -185,7 +185,7 @@ OutputName6=PCB 3D bottom
 OutputCategory6=Documentation
 OutputDocumentPath6=PCB1.PcbDoc
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=2
 OutputEnabled6_OutputMedium3=0
@@ -198,7 +198,7 @@ OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.72|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=41518303|ViewY=23736187|LookAtX=38736640|LookAtY=33055716|LookAtZ=-3461095.25|QuatX=0.321239531040192|QuatY=0.843249022960663|QuatZ=0.399602949619293|QuatW=0.161411315202713|Zoom=3.74533614977539E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ViewConfig= 
+Configuration6_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=41518303|ViewY=23736187|LookAtX=38736640|LookAtY=33055716|LookAtZ=-3461095.25|QuatX=0.321239531040192|QuatY=0.843249022960663|QuatZ=0.399602949619293|QuatW=0.161411315202713|Zoom=3.74533614977539E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ViewConfig=
 
 [PublishSettings]
 OutputFilePath2=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\Job1.PDF
@@ -276,7 +276,7 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath6=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\net_printsPDF.PDF
+OutputFilePath6=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\images_signal_layers.PDF
 ReleaseManaged6=0
 OutputBasePath6=Project Outputs for vovaJackal\
 OutputPathMedia6=
@@ -284,7 +284,7 @@ OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
 OutputPathOutputerPrefix6=
 OutputPathOutputerValue6=
-OutputFileName6=image_top_layer
+OutputFileName6=images_signal_layers
 OutputFileNameMulti6=
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
@@ -292,8 +292,8 @@ OpenOutput6=1
 PromptOverwrite6=1
 PublishMethod6=0
 ZoomLevel6=50
-FitSCHPrintSizeToDoc6=1
-FitPCBPrintSizeToDoc6=1
+FitSCHPrintSizeToDoc6=0
+FitPCBPrintSizeToDoc6=0
 GenerateNetsInfo6=1
 MarkPins6=1
 MarkNetLabels6=1
@@ -388,7 +388,7 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath6=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\net_printsPDF.PDF
+RelativeOutputPath6=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\images_signal_layers.PDF
 OpenOutputs6=1
 RelativeOutputPath7=D:\altium\rep\vovaJackal\Project Outputs for vovaJackal\Job1.PDF
 OpenOutputs7=1
