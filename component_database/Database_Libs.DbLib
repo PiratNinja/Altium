@@ -19,16 +19,13 @@ LibrarySearchPath=PCB;SCH
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=DIOD$
+LastFocusedTable=Beads$
 [Table1]
 SchemaName=
 TableName=Beads$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=102|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=104|TKE0=40|Tolerance0=72|Power/Voltage0=99|Manufacturer0=93|ManufacturerPartNumber0=154|Корпус0=60|TitAD0=50
 [Table2]
 SchemaName=
 TableName=Condensator$
@@ -47,9 +44,6 @@ TableName=DIOD$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=52|TKE0=40|Tolerance0=72|Power/Voltage0=99|Manufacturer0=93|ManufacturerPartNumber0=154|Корпус0=60|TitAD0=137
 [Table5]
 SchemaName=
 TableName=IC$
@@ -75,6 +69,12 @@ Enabled=True
 UserWhere=0
 UserWhereText=
 [Table9]
+SchemaName=
+TableName=SWITCH$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table10]
 SchemaName=
 TableName=TRANSISTOR$
 Enabled=True
@@ -161,12 +161,22 @@ Options=FieldName=Resistor$.Library Path|TableNameOnly=Resistor$|FieldNameOnly=L
 [FieldMap40]
 Options=FieldName=Resistor$.Footprint Path|TableNameOnly=Resistor$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=TRANSISTOR$.Part Number|TableNameOnly=TRANSISTOR$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SWITCH$.Part Number|TableNameOnly=SWITCH$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=TRANSISTOR$.Library Ref|TableNameOnly=TRANSISTOR$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SWITCH$.Library Ref|TableNameOnly=SWITCH$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=TRANSISTOR$.Footprint Ref|TableNameOnly=TRANSISTOR$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SWITCH$.Footprint Ref|TableNameOnly=SWITCH$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=TRANSISTOR$.Library Path|TableNameOnly=TRANSISTOR$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SWITCH$.Library Path|TableNameOnly=SWITCH$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
+Options=FieldName=SWITCH$.Footprint Path|TableNameOnly=SWITCH$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=TRANSISTOR$.Part Number|TableNameOnly=TRANSISTOR$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=TRANSISTOR$.Library Ref|TableNameOnly=TRANSISTOR$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=TRANSISTOR$.Footprint Ref|TableNameOnly=TRANSISTOR$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=TRANSISTOR$.Library Path|TableNameOnly=TRANSISTOR$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
 Options=FieldName=TRANSISTOR$.Footprint Path|TableNameOnly=TRANSISTOR$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
